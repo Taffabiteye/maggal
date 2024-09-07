@@ -1,0 +1,237 @@
+.body{
+    padding: 0%;
+    margin: 0%;
+    background: black;
+}
+section{
+    padding: 2rem 7%;
+}
+header{
+    background: rgb(255, 253, 253);
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    border-bottom: #86bf30 solid 3px;
+    
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+margin-left: 50px;
+}
+.logo img{
+    width: 25px;
+    height: 25px;
+    margin-top:1px ;
+}
+.logo p{
+    color: #86bf30;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+.link a:hover{
+ color: #86bf30;
+ border-bottom: 3px solid #86bf30;
+}
+.link a{
+    color: rgb(3, 3, 3);   
+    justify-content: end;
+    padding: 5px;
+    text-decoration: none;
+    position: relative;
+    right: 40%;
+  
+
+}
+ul{
+    display: flex;
+    gap: 30px; 
+    list-style-type: none;
+}
+.bouton{
+    background: #86bf30;
+    color: blue;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 50px;
+}
+.section1{
+    background:linear-gradient(rgba(7, 7, 7, 0.932), rgba(0, 0, 0, 0.767)),url(IMAGE/arriere\ plan.jpg);
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+    text-align: center;
+}
+.titre{
+    position: relative;
+    top: 150px;
+}
+.titre h1{
+    font-size: 40px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titre p{
+    color: white;
+    font-size: 20px;
+}
+.recherche{
+    background: white;
+    padding: 8px;
+    margin-left: 32%;
+    margin-right: 32%;
+    border-radius: 40px; 
+}
+input{
+    outline: none;
+    border: none;
+}
+button{
+    background: #86bf30;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    position: relative;
+    left: 80px;
+    cursor: pointer;
+    
+}
+.section2{
+    align-items: center;
+
+}
+.pere{
+    display: flex;
+    gap: 2rem;
+} 
+.image img{
+    width: 50%;
+    position: relative;
+    top: 50px;
+    flex: 1 1 35rem;
+    left: 200px;
+}   
+.texte{
+    flex: 1 1 35rem;
+    position: relative;
+    top: 25px;
+}
+.citation{
+    display:grid;  
+    grid-template-columns:repeat(2, 1fr);
+}
+.citation a{
+    margin-left: 31%;
+    margin-right: 31%;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    right: 105px;
+}
+.fleche img{
+    width: 20px;
+    height: 25px;   
+}
+.fleche{
+    display: flex;
+    gap: 1rem;  
+}
+.fleche p{
+    position: relative;
+    bottom: 15px; 
+}
+.buttonl a{
+    color: white;
+    background: #86bf30;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.section3 h1{
+  top: 10px;
+  text-align: center;
+  border-bottom: 3px inset  #86bf30; ;
+}
+.section3 h1{
+    font-size: 40px;
+}
+.contener{
+    display: grid;
+    grid-template-columns: repeat(4,4fr);  
+}
+.box img{
+    width: 30px;
+    position: relative;
+    top: 40px;
+}
+.box img:hover{
+    color: rgb(12, 12, 12);
+}
+.box{
+  gap: 1rem;
+  box-shadow: 1px 1px 10px  black;
+  margin: 10px;
+  padding: 15px;
+  height: 16rem;
+  transition:1s;
+}
+.contener :hover{
+    background-color: #86bf30;
+    transform: translateY(-10px);
+}
+.box h2{
+    position: relative;
+    top: 40px;
+}
+.box p{
+    position: relative;
+    top: 40px;
+}
+.imagegp{
+    display: flex;
+    gap: 0.5rem;
+}
+.lesdeux img{
+    width:395px;
+   
+}
+.lesdeux{
+    display: flex;
+    gap: 0.5rem;
+}
+.unik img{
+    width: 500px;
+    height: 570px;
+    
+}
+.section4{
+    padding: 2rem 7%;
+}
+.image1{
+    filter: drop-shadow(25px 15px 20px #86bf30);
+}
+.section5{
+    display: flex;
+}
+footer{
+    background: #03000e;
+    height: 20vh;
+}
+.ecrit p{
+    color: #86bf30;
+    font-size: 60px;
+    font-weight: 1000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+footer p{
+    color: red;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
